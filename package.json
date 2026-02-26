@@ -1,0 +1,29 @@
+{
+  "name": "telegram-downloader-bot",
+  "version": "1.0.0",
+  "description": "Professional Telegram bot for downloading media with admin panel and multi-language support",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "clean": "node src/utils/cleanup.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "downloader",
+    "youtube",
+    "instagram",
+    "tiktok"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "axios": "^1.6.7",
+    "ytdl-core": "^4.11.5",
+    "node-cron": "^3.0.3",
+    "better-sqlite3": "^9.4.3"
+  }
+}
